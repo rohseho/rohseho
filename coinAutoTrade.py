@@ -1,11 +1,11 @@
-
+################자동매매 AzyT######################################
 
 import time
 import pyupbit
 import datetime
 
-access = "AZbqEGn7bwAWDvPOUUxxaAltzI6Qzr59KJd7Qznw"
-secret = "yTxPykYudZ9cxpw0OrpxmH6dv1HiSZumCNW9B9Qr"
+access = "~~bqEGn7bwAWDvPOUUxxaAltzI6Qzr59KJd7Qznw"
+secret = "~~xPykYudZ9cxpw0OrpxmH6dv1HiSZumCNW9B9Qr"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
