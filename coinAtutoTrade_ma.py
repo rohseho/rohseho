@@ -1,14 +1,13 @@
 #=============================================================================
 ### 업비트 자동매매 _변동성+ 이평선  /// 완성 :; 실제 계좌 연동 테스트 해봐야 함...
 #==============================================================================
-
-
+#자동매매 AzyT#
 import time
 import pyupbit
 import datetime
 
-access = "AZbqEGn7bwAWDvPOUUxxaAltzI6Qzr59KJd7Qznw"
-secret = "yTxPykYudZ9cxpw0OrpxmH6dv1HiSZumCNW9B9Qr"
+access = "~~bqEGn7bwAWDvPOUUxxaAltzI6Qzr59KJd7Qznw"
+secret = "~~xPykYudZ9cxpw0OrpxmH6dv1HiSZumCNW9B9Qr"
 
 def get_target_price(ticker, k):
     """변동성 돌파 전략으로 매수 목표가 조회"""
@@ -30,8 +29,6 @@ def get_ma15(ticker):                            ### 이동평균선 확인  ###
     ma15 = df['close'].rolling(15).mean().iloc[-1]
     return ma15
 #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-
 
 def get_balance(ticker):
     """잔고 조회"""
